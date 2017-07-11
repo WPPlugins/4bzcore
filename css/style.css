@@ -1,0 +1,187 @@
+/**
+ * Plugin Name: 4bzCore
+ * Plugin URI: http://wordpress.org/plugins/4bzcore
+ * Author: 4bzthemes
+ * Author URI: http://4bzthemes.com
+ * Description: Front end stylesheet.
+ * Version: 1.0.2
+ * @package 4bzCore
+ * @subpackage style.css
+ ------------------------------------------------------------------------
+	Table of Contents
+	
+	1. Clear Floats
+	2. Shortcodes + Widgets
+	3. Contact Form 7
+-------------------------------------------------------------------------*/
+
+/**
+ * 1. Clear Floats
+ *-----------------------------------------------------------------------*/
+.flickr-photos:after,
+.contact-form-cols-2:after { 
+	clear: both;
+	content: '.';
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/**
+ * 2. Shortcodes + Widgets
+ *-----------------------------------------------------------------------*/
+ 
+/* Posts Based Shortcodes & Widgets */
+article.fourbzcore-article {
+	line-height: 22px;
+}
+
+.post-date,
+.comments-link {
+	font-size: 11px;
+	line-height: normal;
+	padding: 0 2px;
+	text-decoration: none;
+}
+
+/* Contact Form Shortcode & Widget */
+.map {
+	margin-bottom: 12px;
+}
+
+.map iframe {
+	width: 100%;
+}
+
+.contact-info-list {
+	list-style: none !important;
+}
+
+.contact-info-list .fa {
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.contact-form-cols-2 .contact-info-main {
+	float: left;
+	margin-right: 5%;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+	width: 40%;
+}
+ 
+.contact-info-main ul li {
+	border-bottom: 1px dashed;
+	padding: 15px 0;
+}
+
+.contact-info-main ul li:first-child {
+	padding-top: 0;
+}
+
+.contact-info-main .fa {
+	padding-right: 5px;
+}
+
+.contact-form-cols-2 .contact-info-form {
+	float: right;
+	width: 55%;
+}
+
+/* Progressbars Shortcode & Widget */
+.fourbzcore-progressbars-cont ul {
+	list-style-type: none;
+}
+
+.progressbar {
+	background-color:#cbcbcb;
+	border-radius: 4px;
+	height: 22px;
+	position: relative;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+	transition: 0.4s linear;
+	-webkit-transition-property: width, background-color;
+	-moz-transition-property: width;
+	-o-transition-property: width, background-color;
+	transition-property: width, background-color;
+	width: 0;
+}
+
+.fourbzcore-progressbars-cont .progressbar-cont {
+	background-color: #ebebeb;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.fourbzcore-progressbars-cont .component {
+	margin-bottom: 12px;
+}
+
+.skills-set,
+.slides {
+	list-style: none !important;
+}
+
+.skill-lbl-cont {
+	width: 100%;
+}
+
+.skill-lbl {
+	display: inline-block;
+	max-width: 80%;
+	overflow: hidden;
+	padding-right: 1%;
+	width: auto;
+}
+
+.skill-percent {
+	float: right;
+	max-width: 18%;
+	overflow: hidden;
+	padding-right: 1%; /* give room so the percentage will not be cut off	*/
+	text-align: right;
+	width: auto;
+}
+
+/* Image Text Widget */
+.fourbzcore-image-text-cont img {
+	height: auto;
+	width: 100%;
+}
+
+/* Flexslider */
+.flexslider {
+	overflow: hidden;
+	min-height: 50px;
+	position: relative;
+	width: auto;
+}
+
+.flexslider .slides  {
+	overflow: hidden;
+}
+
+.flex-direction-nav a  {
+    line-height: 40px;
+}
+
+/* Flickr Photos Shortcode & Widget */
+.flickr-photos img {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+/**
+ * 3. Contact Form 7
+ *-----------------------------------------------------------------------*/
+.wpcf7-form-control {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
+	vertical-align: baseline;
+	width: 100%;
+}

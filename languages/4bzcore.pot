@@ -1,0 +1,508 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 4bzCore\n"
+"POT-Creation-Date: 2015-05-11 05:09-0500\n"
+"PO-Revision-Date: 2015-05-11 05:10-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 4bzcore.php:341
+msgid "4bzCore"
+msgstr ""
+
+#: 4bzcore.php:588
+msgid "close"
+msgstr ""
+
+#: 4bzcore.php:589 4bzcore.php:1514 4bzcore.php:1582 4bzcore.php:2094
+msgid "Delete"
+msgstr ""
+
+#: 4bzcore.php:590 4bzcore.php:1584 4bzcore.php:2095
+msgid "Name"
+msgstr ""
+
+#: 4bzcore.php:591 4bzcore.php:1587 4bzcore.php:2098
+msgid "Enter percentage as a number 0-100"
+msgstr ""
+
+#: 4bzcore.php:592 4bzcore.php:1518
+msgid "Enter the html for the slide"
+msgstr ""
+
+#: 4bzcore.php:593
+msgid "Choose Image"
+msgstr ""
+
+#: 4bzcore.php:674
+msgid "Cache cleared successfully!"
+msgstr ""
+
+#: 4bzcore.php:693
+msgid ""
+"Error: The post variable is corrupted. Please contact the administrator."
+msgstr ""
+
+#: 4bzcore.php:734
+msgid "All options saved successfully!"
+msgstr ""
+
+#: 4bzcore.php:753 4bzcore.php:754 4bzcore.php:2104
+msgid "4bzCore Options"
+msgstr ""
+
+#: 4bzcore.php:769
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: 4bzcore.php:793
+msgid "Version: 1.0.0"
+msgstr ""
+
+#: 4bzcore.php:798
+msgid "For updates, tutorials, and more visit"
+msgstr ""
+
+#: 4bzcore.php:799
+msgid "Our Website"
+msgstr ""
+
+#: 4bzcore.php:800
+msgid "and"
+msgstr ""
+
+#: 4bzcore.php:801
+msgid "Wordpress.org"
+msgstr ""
+
+#: 4bzcore.php:827
+msgid "Facebook"
+msgstr ""
+
+#: 4bzcore.php:829 4bzcore.php:840
+msgid "Application Id"
+msgstr ""
+
+#: 4bzcore.php:837
+msgid "Google"
+msgstr ""
+
+#: 4bzcore.php:850
+msgid "Enable Caching"
+msgstr ""
+
+#: 4bzcore.php:855
+msgid "Clear the cache used to store the widgets output."
+msgstr ""
+
+#: 4bzcore.php:861
+msgid "Clear Cache"
+msgstr ""
+
+#: 4bzcore.php:869
+msgid "Save Options"
+msgstr ""
+
+#: 4bzcore.php:932
+msgid "Upload image"
+msgstr ""
+
+#: 4bzcore.php:933
+msgid "Width"
+msgstr ""
+
+#: 4bzcore.php:936
+msgid "Height"
+msgstr ""
+
+#: 4bzcore.php:940
+msgid "Alt Text"
+msgstr ""
+
+#: 4bzcore.php:966 4bzcore.php:2109
+msgid "Title"
+msgstr ""
+
+#: 4bzcore.php:976
+msgid "Number of items to display"
+msgstr ""
+
+#: 4bzcore.php:1014 4bzcore.php:1107 4bzcore.php:1131 4bzcore.php:1330
+#: 4bzcore.php:1365 4bzcore.php:1458 4bzcore.php:1563 4bzcore.php:1622
+#: 4bzcore.php:1663 4bzcore.php:1688
+msgid "General"
+msgstr ""
+
+#: 4bzcore.php:1139 4bzcore.php:1140
+msgid "User id"
+msgstr ""
+
+#: 4bzcore.php:1180
+msgid ""
+"If a user id is entered, then that user's contact information will be used, "
+"and you do not have to enter it below. If you want to display icons with the "
+"contact information, you have to enter them below."
+msgstr ""
+
+#: 4bzcore.php:1183
+msgid "User Id"
+msgstr ""
+
+#: 4bzcore.php:1188
+msgid "Primary Address"
+msgstr ""
+
+#: 4bzcore.php:1194
+msgid "Choose icon"
+msgstr ""
+
+#: 4bzcore.php:1201
+msgid "Enter Phone Number"
+msgstr ""
+
+#: 4bzcore.php:1206
+msgid "Choose icon to be shown with phone number"
+msgstr ""
+
+#: 4bzcore.php:1213
+msgid "Enter website url"
+msgstr ""
+
+#: 4bzcore.php:1218
+msgid "Choose icon to be shown with website"
+msgstr ""
+
+#: 4bzcore.php:1225
+msgid "Enter email address"
+msgstr ""
+
+#: 4bzcore.php:1230
+msgid "Choose icon to be shown with email"
+msgstr ""
+
+#: 4bzcore.php:1237
+msgid "Enter facebook handle"
+msgstr ""
+
+#: 4bzcore.php:1241
+msgid "Choose icon to be shown with the facebook handle"
+msgstr ""
+
+#: 4bzcore.php:1247
+msgid "Enter twitter handle"
+msgstr ""
+
+#: 4bzcore.php:1251
+msgid "Choose icon to be shown with the twitter handle"
+msgstr ""
+
+#: 4bzcore.php:1257
+msgid "Enter google+ handle"
+msgstr ""
+
+#: 4bzcore.php:1261
+msgid "Choose icon to be shown with the google handle"
+msgstr ""
+
+#: 4bzcore.php:1267
+msgid "Enter linkedin handle"
+msgstr ""
+
+#: 4bzcore.php:1270
+msgid "Choose icon to be shown with the linkedin handle"
+msgstr ""
+
+#: 4bzcore.php:1276
+msgid "Enter instagram handle"
+msgstr ""
+
+#: 4bzcore.php:1280
+msgid "Choose icon to be shown with the instagram handle"
+msgstr ""
+
+#: 4bzcore.php:1286
+msgid "Enter tumblr handle"
+msgstr ""
+
+#: 4bzcore.php:1290
+msgid "Choose icon to be shown with the tumblr handle"
+msgstr ""
+
+#: 4bzcore.php:1296
+msgid "Enter pinterest handle"
+msgstr ""
+
+#: 4bzcore.php:1301
+msgid "Choose icon to be shown with the pinterest handle"
+msgstr ""
+
+#: 4bzcore.php:1333 4bzcore.php:1412
+msgid "Contact Information"
+msgstr ""
+
+#: 4bzcore.php:1401
+msgid "Contact Form Specific Options"
+msgstr ""
+
+#: 4bzcore.php:1404
+msgid "Contact Form"
+msgstr ""
+
+#: 4bzcore.php:1405
+msgid "Enter the shortcode here to display a contact form."
+msgstr ""
+
+#: 4bzcore.php:1417
+msgid ""
+"Show Contact Information - depending on the screen size, it will be to the "
+"left of the contact form."
+msgstr ""
+
+#: 4bzcore.php:1428
+msgid "Google Map"
+msgstr ""
+
+#: 4bzcore.php:1433
+msgid ""
+"Show Google Map - it will be above the contact form. Enter the app id on the "
+"plugin options page."
+msgstr ""
+
+#: 4bzcore.php:1497
+msgid "Slideshow Specific Options"
+msgstr ""
+
+#: 4bzcore.php:1502
+msgid "Slides"
+msgstr ""
+
+#: 4bzcore.php:1504
+msgid ""
+"Sort the slides by hovering over a slide until a hand appears, drag and drop "
+"where desired."
+msgstr ""
+
+#: 4bzcore.php:1572
+msgid "Items"
+msgstr ""
+
+#: 4bzcore.php:1574
+msgid ""
+"Sort the progressbars by hovering over an item until a hand appears, drag "
+"and drop where desired."
+msgstr ""
+
+#: 4bzcore.php:1574
+msgid "Add Item"
+msgstr ""
+
+#: 4bzcore.php:1586 4bzcore.php:2097
+msgid "Percentage"
+msgstr ""
+
+#: 4bzcore.php:1627
+msgid "Image Text Specific Options"
+msgstr ""
+
+#: 4bzcore.php:1628
+msgid "Image"
+msgstr ""
+
+#: 4bzcore.php:1630
+msgid "Upload Image"
+msgstr ""
+
+#: 4bzcore.php:1638
+msgid "Description"
+msgstr ""
+
+#: 4bzcore.php:1692
+msgid "Column Width"
+msgstr ""
+
+#: 4bzcore.php:1693
+msgid "Enter the column width with unit of measurement, eg 300px, 25%, etc."
+msgstr ""
+
+#: 4bzcore.php:1698
+msgid "Column Padding"
+msgstr ""
+
+#: 4bzcore.php:1699
+msgid ""
+"Enter the column padding with unit of measurement, eg 12px, 1px 2px 3px 4px, "
+"etc.. Leave blank for no padding."
+msgstr ""
+
+#: 4bzcore.php:1704
+msgid "Column Margin"
+msgstr ""
+
+#: 4bzcore.php:1705
+msgid ""
+"Enter the column margin with unit of measurement, eg 12px, 1px 2px 3px 4px, "
+"etc.. Leave blank for no margin."
+msgstr ""
+
+#: 4bzcore.php:1789
+msgid "Select Shortcode"
+msgstr ""
+
+#: 4bzcore.php:1833
+msgid "4bzCore Post Options"
+msgstr ""
+
+#: 4bzcore.php:1870
+msgid "Related Posts"
+msgstr ""
+
+#: 4bzcore.php:1871
+msgid "Enter list of post ids that are related to this post. Format: 34 1 5"
+msgstr ""
+
+#: 4bzcore.php:1919
+msgid "Featured Images"
+msgstr ""
+
+#: 4bzcore.php:1919
+msgid ""
+"Sort the images by hovering over an image until a hand appears, drag and "
+"drop where desired."
+msgstr ""
+
+#: 4bzcore.php:1941
+msgid "Video or Audio Embed"
+msgstr ""
+
+#: 4bzcore.php:1942
+msgid "Embed Code"
+msgstr ""
+
+#: 4bzcore.php:2113
+msgid "Avatar"
+msgstr ""
+
+#: 4bzcore.php:2120
+msgid "Address"
+msgstr ""
+
+#: 4bzcore.php:2126
+msgid "Phone"
+msgstr ""
+
+#: 4bzcore.php:2132
+msgid "Facebook Handle"
+msgstr ""
+
+#: 4bzcore.php:2138
+msgid "Twitter Handle"
+msgstr ""
+
+#: 4bzcore.php:2144
+msgid "Google Handle"
+msgstr ""
+
+#: 4bzcore.php:2150
+msgid "Linkedin"
+msgstr ""
+
+#: 4bzcore.php:2156
+msgid "Instagram"
+msgstr ""
+
+#: 4bzcore.php:2162
+msgid "Tumblr"
+msgstr ""
+
+#: 4bzcore.php:2168
+msgid "Pinterest"
+msgstr ""
+
+#: 4bzcore.php:2174
+msgid "Skills"
+msgstr ""
+
+#: 4bzcore.php:2176
+msgid ""
+"Sort the skills by hovering over a skill until a hand appears, drag and drop "
+"where desired."
+msgstr ""
+
+#: 4bzcore.php:2176
+msgid "Add Skill"
+msgstr ""
+
+#: 4bzcore.php:2229 4bzcore.php:2247
+msgid "No Swiping"
+msgstr ""
+
+#: includes/class-4bzcore-shortcodes.php:195
+msgid "No related posts"
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-author-bio.php:28
+msgid "Display an author bio."
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-contact-form.php:28
+msgid "Display a contact form."
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-contact-info.php:28
+msgid "Display the contact information for an organization or a user."
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-facebook-comments.php:28
+msgid "Display a list of your recent comments from facebook."
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-featured-posts.php:28
+msgid "Display a list of featured posts."
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-flickr-photos.php:28
+msgid "Display photos from flickr. Input the user id."
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-image-text.php:32
+msgid "Show an image with a description."
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-popular-posts.php:28
+msgid "Display a list of your most commented posts."
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-progressbars.php:28
+msgid "Display a set of progressbars"
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-recent-posts.php:28
+msgid "Display a list of recent posts."
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-related-posts.php:28
+msgid "Display a list of related posts, recommended for the single post page."
+msgstr ""
+
+#: includes/widgets/class-4bzcore-widget-slideshow.php:24
+msgid "Display a flexslider slideshow."
+msgstr ""
+
+#: templates/posts.php:45
+msgid "0 Comments"
+msgstr ""
+
+#: templates/posts.php:45
+msgid "1 Comment"
+msgstr ""
+
+#: templates/posts.php:46
+msgid "% Comments"
+msgstr ""

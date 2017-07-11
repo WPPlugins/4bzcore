@@ -1,0 +1,285 @@
+/**
+ * Plugin Name: 4bzCore
+ * Plugin URI: http://wordpress.org/plugins/4bzcore
+ * Author: 4bzthemes
+ * Author URI: http://4bzthemes.com
+ * File Description: Stylesheet for administration side.
+ *
+ * @since 4bzCore 1.0.0
+ *
+ * @package 4bzCore
+ * @subpackage admin.css
+-------------------------------------------------------------------------
+	Table of Contents
+	
+	1. Font Face + Clear Floats
+	2. 4bzCore Options
+	3. Posts Edit Page
+	4. Shortcode Builder
+	5. General
+-------------------------------------------------------------------------*/
+
+/**
+ * 1. Font Face + Clear Floats
+ *-----------------------------------------------------------------------*/
+
+/* Import fonts */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+/* Clear floats */
+td:after,
+.clearer:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/**
+ * 2. 4bzCore Options
+ *-----------------------------------------------------------------------*/
+.fourbzcore-wrap {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-size-adjust: none; 
+	font-stretch: normal;
+	line-height: normal;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+.fourbzcore-wrap img {
+	height: auto;
+	width: 100%;
+}
+
+.text-format {
+	font-size: 12px;
+	line-height: 21px;
+}
+
+/* Options Form */
+.options-logo {
+	color: #0071d8;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+.fourbzcore-wrap table th,
+.fourbzcore-wrap table td {
+	font-weight: normal;
+	margin-top: 0;
+	padding-bottom: 24px;
+	padding-top: 0;
+}
+
+.fourbzcore-wrap table tr input[type="text"]:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.fourbzcore-wrap input[type="text"],
+.fourbzcore-wrap select,
+.fourbzcore-wrap textarea,
+.fourbzcore-shortcode-options-wrap input[type="text"],
+.fourbzcore-shortcode-options-wrap select,
+.fourbzcore-shortcode-options-wrap textarea {
+	display: block;
+	margin-bottom: 24px;
+	margin-top: 6px;
+}
+
+.fourbzcore-wrap input[type="checkbox"],
+.fourbzcore-wrap input[type="radio"],
+.fourbzcore-shortcode-options-wrap input[type="checkbox"],
+.fourbzcore-shortcode-options-wrap input[type="radio"] {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.fourbzcore-wrap label {
+	line-height: 26px;
+}
+
+.fourbzcore-wrap textarea {
+	width:100%;
+}
+
+.fourbzcore-wrap .fourbzcore-icon-image-btn {
+	display: block;
+	margin-bottom: 24px;
+	margin-top: 12px;
+}
+
+div.group {
+	margin-bottom: 24px;
+	margin-top: 6px;
+}
+
+div.group label {
+	display: inline;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+option.disabled {
+	font-style: italic;
+	margin: 5px;
+}
+
+/* Sections Style */
+.section-title {
+	color: #000;
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: capitalize;
+}
+
+p.section-title {
+	margin: 12px 0;
+}
+
+.subsection-title {
+	font-size: 12px;
+}
+
+.fourbzcore-wrap .instruction {
+	background-color: #fafafa;
+	color: #afafaf;
+	font-style: italic;
+	line-height: 20px;
+	margin-top: -20px !important;
+	padding: 6px;
+}
+
+.instruction.fixed {
+	margin-top: 6px !important;
+}
+
+.fourbzcore-icon-chooser .fa {
+	color: black;
+	padding: 10px;
+}
+
+/**
+ * 3. Posts Edit Page
+ *-----------------------------------------------------------------------*/
+#fourbzcore-dialog {
+	padding-bottom: 24px;
+}
+
+.fourbzcore-media-list li {
+	position: relative;
+}
+
+.overlay {
+	background-color: rgba(0,0,0,.4);
+	bottom: 5px;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	position: absolute;
+	text-align: center;
+}
+
+.fourbzcore-media-cont img {
+	cursor: -webkit-grab;
+	cursor: -moz-grab;
+	cursor: grab;
+	width: 100%;
+	height: auto;
+}
+
+/**
+ * 4. Shortcode Builder
+ *-----------------------------------------------------------------------*/
+.fourbzcore-shortcode-options-wrap {
+	margin-right: 40px;
+	padding-left: 20px;
+}
+
+.insert-shortcode-post {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+/**
+ * 5. General
+ *-----------------------------------------------------------------------*/
+.fourbzcore-closer {
+	color: black;
+	cursor: pointer;
+	font-size: 16px;
+	text-align: right;
+}
+
+.loader {
+	background:  url('http://localhost/wordpress/wp-content/plugins/4bzcore/images/loader.GIF') no-repeat;
+	background-size: cover;
+	cursor: wait;
+	display: none;
+	height: 25px;
+	position: relative;
+	width: 25px;
+	z-index: 1;
+}
+
+ul.sortable li {
+	cursor: -webkit-grab;
+	cursor: -moz-grab;
+	cursor: grab;
+}
+
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: .8em;
+}
+
+.ui-widget-content {
+    background: #F9F9F9;
+    border: 1px solid;
+    color: #222222;
+}
+
+.ui-dialog {
+    left: 0;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+}
+
+#success {
+    padding: 0;
+    margin: 0; 
+}
+
+.ui-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    border: none;
+    overflow: auto;
+    position: relative;
+    padding: 0 !important;
+}
+
+.ui-widget-header {
+    background: white;
+    border: 0;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0.1em .5em;
+    position: relative;
+    font-size: 1em;
+}
